@@ -13,7 +13,7 @@ RUN \
   apt-get clean && \
   rm -rf /var/lib/apt/lists/ \
   && \
-  git clone --single-branch --branch master https://github.com/movableink/doorman.git && \
+  git clone --single-branch --branch master https://github.com/ukasiu/doorman.git && \
   cd /doorman && \
   npm install && \
   mv conf.environment.js conf.js
